@@ -80,7 +80,7 @@ namespace DQM
                         break;
                 }
 
-                //checking validation
+                //checking validation of messaging request
                 bool validatedUpdate = row.requestValidated;
                 if (!validatedUpdate)
                 {
