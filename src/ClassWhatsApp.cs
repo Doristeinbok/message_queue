@@ -72,10 +72,12 @@ namespace DQM
                     p1.type = "text";
                     p1.text = Subject;
 
+                    //Componenet can be header, body, or button
                     Component c1 = new Component();
                     c1.type = "header";
                     c1.parameters[0] = p1;
 
+                    //Parameter can be text, currency, date_time, image, document, or video
                     Parameter p2 = new Parameter();
                     p2.type = "text";
                     p2.text = Body;
